@@ -1,0 +1,56 @@
+/* Background Image */
+body {
+    background-image:url(https://i.ibb.co/q1rYLVm/pexels-photo-2033987.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+       
+}
+/* Background white box */
+.white-box {
+    background-color: ghostwhite;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    margin-right: 500px;
+    margin-top: 100px;
+    height: 680px;
+}
+.ul {
+    border-bottom: solid;
+    border-color: gray;
+    padding-bottom: 20px;
+}
+.ml {
+    margin-left: 20px;
+}
+/* Edits size of text per class assigned */
+.lgtx {
+    font-size: large;
+}
+.lgtx-2{
+    font-size: 25px;
+    font-weight: bold;
+    font-size-adjust: 1;
+}
+.padding {
+    padding-top: 20px;
+
+}
+/* Adjusts size of form boxes */
+.contact {
+    margin-bottom: 200px;
+    width: 300px;
+    
+
+}
+/* Adjusts button position */
+.button {
+    margin-left: 100px;
+
+}
+/* Message box size */
+.size {
+    margin-top: 100px;
+}
