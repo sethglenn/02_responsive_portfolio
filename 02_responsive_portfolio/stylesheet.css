@@ -13,6 +13,18 @@ body {
 
 
 }
+#contactDiv{
+    width: 145px;
+
+}
+#portfolioDiv{
+    width: 160px;
+}
+#aboutmeDiv{
+    width: 188px;
+}
+
+
 .link1{
     color: black;
     background-color: transparent;
@@ -90,5 +102,19 @@ body {
         .smimg                    {
             width: 170px;
             height: 300px;
+
+}
+/* Makes card dissapear at smaller display */
+@media only screen and (max-width:450px){
+    #bgTrans                  {
+        background-color: transparent;
+        border-color: transparent;
+
+}
+@media only screen and (max-width:450px){
+    #posTrans                    {
+         padding: 0.25rem;
+
+
 
 }
